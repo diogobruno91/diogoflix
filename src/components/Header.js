@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import diogoflix from '../img/diogoflix.png'
 
+// eslint-disable-next-line
 export default ({black}) => {
     return (
         <header className={black ? 'black' : ''}>
